@@ -30,6 +30,7 @@
     "guid": "0.0.12",
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.29",
+    "jquery": "^2.2.3",
     "react": "^0.14",
     "react-addons": "^0.9.1-deprecated",
     "react-tools": "^0.13.3",

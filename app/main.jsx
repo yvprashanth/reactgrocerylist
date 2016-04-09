@@ -1,15 +1,17 @@
-console.log('Hello From JSX!');
+
 var React = require('react/addons');
+
+console.log("Hello from JSX!");
+
 var GroceryItemList = require('./components/GroceryItemList.jsx');
-var GroceryItemStore = require('./stores/GroceryItemStore.jsx');
 
-var initial = GroceryItemStore.getItems();
-
+var groceryItemStore = require('./stores/GroceryItemStore.jsx');
+var initial = groceryItemStore.getItems();
 function render(){
-    React.render(<GroceryItemList items={initial} />, app)
+    React.render(<GroceryItemList items={initial}/>,app)
 }
-
-GroceryItemStore.onChange(function(items){
+                 
+groceryItemStore.onChange(function(items){
     initial = items;
     render();
 })
