@@ -1,0 +1,36 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvprashanth/reactgrocerylist.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "mongo",
+    "mongoose"
+  ],
+  "author": "Prashanth Yerramilli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvprashanth/reactgrocerylist/issues"
+  },
+  "homepage": "https://github.com/yvprashanth/reactgrocerylist#readme",
+  "dependencies": {
+    "browser-sync": "^2.11.2",
+    "browserify": "^13.0.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.29",
+    "react": "^0.14",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1"
+  }
+}

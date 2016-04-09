@@ -1,0 +1,27 @@
+{
+  "name": "react",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Prashanth Yerramilli"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "react",
+    "mongo",
+    "mongoose"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.0.1"
+  }
+}
