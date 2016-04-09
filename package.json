@@ -30,7 +30,9 @@
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.29",
     "react": "^0.14",
+    "react-addons": "^0.9.1-deprecated",
     "react-tools": "^0.13.3",
-    "reactify": "^1.1.1"
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
